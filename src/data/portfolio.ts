@@ -134,7 +134,7 @@ export const certifications = [
     date: "2024",
   },
 ];
-export const portfolioData = {
+export const myportfolioData = {
   name: "Your Name",
   about: "<em>Your italicized about text here</em>", // or use markdown
   // ...existing code...
