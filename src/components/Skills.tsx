@@ -118,7 +118,7 @@ export default function Skills() {
           <p className="text-gray-300 text-lg">
             I have a strong foundation in Python and Data Science with growing expertise in Generative AI. 
             My frontend skills include HTML, CSS, and JavaScript, along with version control using Git & GitHub. 
-            I'm continuously learning and expanding my technical skillset to stay current with industry trends.
+            I&apos;m continuously learning and expanding my technical skillset to stay current with industry trends.
           </p>
         </motion.div>
       </div>

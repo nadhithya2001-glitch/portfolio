@@ -116,7 +116,7 @@ export default function AIChat() {
         {messages.length === 0 && (
           <div className="flex items-center justify-center h-full text-center">
             <div>
-              <p className="text-slate-400 text-sm mb-2">👋 Hi! I'm your portfolio assistant</p>
+              <p className="text-slate-400 text-sm mb-2">👋 Hi! I&apos;m your portfolio assistant</p>
               <p className="text-slate-500 text-xs">Ask me about:</p>
               <ul className="text-slate-500 text-xs mt-2 space-y-1">
                 <li>• My projects and experience</li>

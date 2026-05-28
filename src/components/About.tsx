@@ -121,5 +121,3 @@ export default function About() {
     </section>
   );
 }
-// In any component, e.g., About.tsx
-<p className="italic">Your italic text here</p>
