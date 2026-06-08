@@ -52,14 +52,7 @@ export default function About() {
           {/* Text Content */}
           <motion.div className="space-y-6" variants={itemVariants}>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I am a <span className="text-accent font-semibold">BCA graduate</span> from{' '}
-              <span className="text-accent font-semibold">Aachariya Arts and Science College</span>,
-              Pondicherry University.
-            </p>
-
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I am passionate about <span className="text-accent font-semibold">AI and software development</span> with
-              a strong interest in building <span className="text-accent font-semibold">AI-powered applications</span>.
+              {portfolioData.about}
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
