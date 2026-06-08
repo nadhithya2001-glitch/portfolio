@@ -1,4 +1,17 @@
-export const portfolioData = {
+export interface PortfolioData {
+  name: string;
+  title: string;
+  email: string;
+  phone: string;
+  location: string;
+  github: string;
+  linkedin: string;
+  resumeUrl: string;
+  intro: string;
+  about: string;
+}
+
+export const portfolioData: PortfolioData = {
   name: "Adhithya N",
   title: "Data Science & Generative AI Enthusiast",
   email: "nadhithya2001@gmail.com",
@@ -133,9 +146,4 @@ export const certifications = [
     issuer: "Online Platform",
     date: "2024",
   },
-];
-export const myportfolioData = {
-  name: "Your Name",
-  about: "<em>Your italicized about text here</em>", // or use markdown
-  // ...existing code...
-}
+];
