@@ -22,9 +22,7 @@ export const portfolioData: PortfolioData = {
   resumeUrl: "/Adhithya_Resume.pdf",
   intro:
     "Aspiring software and AI professional passionate about Python, Data Science, and Generative AI technologies.",
-  about: `I am a BCA graduate from Aachariya Arts and Science College, Pondicherry University. 
-I am passionate about AI and software development with a strong interest in building AI-powered applications. 
-I am a positive thinker and hardworking individual committed to continuous learning and innovation.`,
+  about: `I am a BCA graduate from Aachariya Arts and Science College, Pondicherry University. I specialize in Python, Data Science, Generative AI, and full-stack web development using HTML, CSS, and JavaScript. I am a positive thinker and hardworking individual committed to continuous learning and innovation.`,
 };
 
 export const skills = [
@@ -87,8 +85,28 @@ export const education = [
   },
 ];
 
-export const projects = [
+export const internships = [
   {
+    id: 1,
+    company: "TechCorp Ltd.",
+    role: "Machine Learning Intern",
+    duration: "June 2023 – August 2023",
+    description: "Developed prototype models for predictive maintenance using Python and scikit‑learn, and built data pipelines for real‑time sensor data.",
+    technologies: ["Python", "scikit‑learn", "Pandas", "AWS"],
+    link: "https://github.com/yourusername/ml-internship",
+  },
+  {
+    id: 2,
+    company: "DataAnalytics Inc.",
+    role: "Data Science Intern",
+    duration: "Jan 2024 – Mar 2024",
+    description: "Performed EDA, feature engineering and built regression models for sales forecasting. Created interactive dashboards with Plotly.",
+    technologies: ["Python", "Pandas", "Plotly", "SQL"],
+    link: "https://github.com/yourusername/data-internship",
+  },
+];
+
+  export const projects = [{
     id: 1,
     title: "AI Chatbot using Python",
     description:
@@ -128,6 +146,26 @@ export const projects = [
     demo: "#",
     image: "🤖",
   },
+  {
+    id: 5,
+    title: "AI Image Generator",
+    description:
+      "A Python-powered web app that generates images from text prompts using diffusion models.",
+    technologies: ["Python", "Generative AI", "Diffusion Models", "FastAPI"],
+    github: "https://github.com",
+    demo: "#",
+    image: "🖼️",
+  },
+  {
+    id: 6,
+    title: "Python Data Analyzer",
+    description:
+      "A Python CLI tool for data cleaning, visualization, and predictive modeling using scikit-learn.",
+    technologies: ["Python", "Data Science", "Machine Learning", "Pandas"],
+    github: "https://github.com",
+    demo: "#",
+    image: "📊",
+  },
 ];
 
 export const certifications = [
@@ -145,5 +183,15 @@ export const certifications = [
     title: "Generative AI Basics",
     issuer: "Online Platform",
     date: "2024",
+  },
+  {
+    title: "AWS Certified Solutions Architect – Associate",
+    issuer: "Amazon Web Services",
+    date: "2023",
+  },
+  {
+    title: "Google Cloud Professional Data Engineer",
+    issuer: "Google Cloud",
+    date: "2023",
   },
 ];
